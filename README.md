@@ -9,6 +9,18 @@ Discord ブラウザ版 (`https://discord.com/channels/*`) で、ショートカ
 **カテゴリ/チャネルを検索 & ドリルダウン**できる Chrome 拡張機能。30チーム規模の業務サーバーで
 「自分の入るチャネルを毎回探す」のがしんどい人向け。
 
+## スクリーンショット
+
+カテゴリ一覧 (デフォルト表示):
+
+![Top view](docs/screenshot-top.png)
+
+カテゴリをクリックするとドリルダウン + サイドバーがそのカテゴリ位置までスクロール:
+
+![Drill-down view](docs/screenshot-drill.png)
+
+> 上記は実際のオーバーレイCSSをそのまま使ったモック画像 (`docs/mock-{top,drill}.html`) です。
+
 ## できること
 
 - **ショートカット起動**: `Option+Shift+K` (Mac) / `Alt+Shift+K` (Win) でオーバーレイを開く
