@@ -1,18 +1,28 @@
 # Channel Quick Finder
 
-> ⚠️ **非公式・自己責任**
+> ⚠️ **非公式・無保証・自己責任**
 >
 > 本拡張機能は Discord Inc. による開発・承認・後援を一切受けていない
-> **非公式の第三者製ツール**です。Discord の UI 仕様変更により動作不能になる可能性、
-> Discord 側からのアクセス制限・アカウントへの影響等、いかなる事象についても
-> 利用者は **自己の責任** において使用するものとし、作者は一切の責任を負いません。
+> **非公式の第三者製ツール**です。
+>
+> 本拡張機能を **インストールまたは使用することで、利用者は [利用規約 (TERMS.md)](./TERMS.md)
+> および [プライバシーポリシー (PRIVACY.md)](./PRIVACY.md) に同意したものとみなされます。**
+> 同意できない場合はインストールしないでください。
+>
+> 本拡張機能は「現状有姿 (AS IS)」で提供され、いかなる保証もありません。
+> Discord の UI 仕様変更による動作不能、アクセス制限、アカウントへの影響、
+> Discord Inc. または第三者からの請求等、いかなる事象についても作者は
+> **一切の責任を負いません**。詳細は [TERMS.md](./TERMS.md) を参照。
 >
 > "Discord" は Discord Inc. の商標です。対応サービスを示すためにのみ言及しています。
 >
-> **Unofficial — use at your own risk.** This is an unofficial third-party tool,
-> not affiliated with, endorsed, sponsored, or approved by Discord Inc. The
-> author provides no warranty and assumes no liability for any consequences
-> arising from use of this extension.
+> ---
+>
+> **Unofficial — use at your own risk.** By installing or using this extension
+> you agree to the [Terms of Use](./TERMS.md) and [Privacy Policy](./PRIVACY.md).
+> The extension is provided "AS IS" with no warranty. The author assumes no
+> liability for any damages, account impact, or third-party claims arising from
+> use of this extension. See [TERMS.md](./TERMS.md) for full legal terms.
 
 Discord ブラウザ版 (`https://discord.com/channels/*`) で、ショートカット一発で
 **カテゴリ/チャネルを検索 & ドリルダウン**できる Chrome 拡張機能。30チーム規模の業務サーバーで

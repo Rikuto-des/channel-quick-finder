@@ -10,6 +10,7 @@ Discord web app sidebar. Not affiliated with Discord Inc.
 ## Links
 
 - [GitHub repository](https://github.com/Rikuto-des/channel-quick-finder)
+- [Terms of Use / 利用規約](./TERMS)
 - [Privacy Policy](./PRIVACY)
 - [README (Japanese)](https://github.com/Rikuto-des/channel-quick-finder#readme)
 

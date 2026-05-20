@@ -3,9 +3,8 @@
   "name": "Channel Quick Finder",
   "short_name": "Quick Finder",
   "version": "0.1.0",
-  "description": "Discord ブラウザ版のサイドバーから、カテゴリ/チャネルをショートカット一発で検索 & ドリルダウン。⚠️非公式・自己責任で利用。",
-  "author": "rikuto",
-  "homepage_url": "https://github.com/Rikuto-des/channel-quick-finder",
+  "description": "Discord ブラウザ版のサイドバーから、カテゴリ/チャネルをショートカット一発で検索 & ドリルダウン。⚠️非公式・無保証・自己責任。",
+  "homepage_url": "https://rikuto-des.github.io/channel-quick-finder/",
   "icons": {
     "16": "icons/icon16.png",
     "32": "icons/icon32.png",

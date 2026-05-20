@@ -59,20 +59,48 @@ for details.
 
 ## Affiliation & Disclaimer / 免責事項
 
-This is an **unofficial third-party tool**. It is not affiliated with,
-endorsed, sponsored by, or approved by Discord Inc. "Discord" is a trademark of
-Discord Inc., used here only descriptively to indicate which website the
-extension works on.
+This extension is an **unofficial, independently developed third-party tool**.
+It is not affiliated with, endorsed by, sponsored by, or in any way connected
+to Discord Inc. "Discord" is a trademark of Discord Inc., referenced solely
+descriptively to identify the website on which the extension operates.
 
-**Use at your own risk.** The author provides this software "as is" without any
-warranty. The author assumes no liability for any direct, indirect, incidental,
-or consequential damages arising from use of this extension — including but not
-limited to broken functionality from Discord UI changes, access restrictions
-imposed by Discord, or any impact on the user's Discord account.
+**Use at your own risk.** The full warranty disclaimer, limitation of liability,
+indemnification, and other legal terms are set out in the [Terms of Use](./TERMS).
+By installing or using this extension you agree to those Terms.
 
-**自己責任** で使用してください。本拡張機能は無保証・現状のまま (as-is) で提供されます。
-Discord の UI 仕様変更による動作不能、Discord 側からのアクセス制限、アカウントへの影響、
-その他いかなる直接・間接・付随的・派生的損害についても、作者は一切の責任を負いません。
+In particular, and without limiting the [Terms of Use](./TERMS):
+
+- The extension is provided "AS IS" and "AS AVAILABLE", without any warranty
+  of any kind, express or implied.
+- The author shall not be liable for any direct, indirect, incidental,
+  special, exemplary, consequential, or punitive damages arising from use of
+  or inability to use the extension — including loss of data, loss of access
+  to Discord, any restriction or termination of the user's Discord account by
+  Discord Inc., or any claim brought by Discord Inc. or any third party.
+- The user agrees to indemnify and hold the author harmless from any claim
+  arising out of the user's use of the extension or violation of any third
+  party's terms (including Discord's Terms of Service).
+
+---
+
+本拡張機能は、**非公式の独立した第三者製ツール**です。Discord Inc. による開発・承認・
+後援・その他いかなる関係も一切ありません。"Discord" は Discord Inc. の商標であり、
+本拡張機能が動作するウェブサイトを識別する目的でのみ言及しています。
+
+**自己責任**でご利用ください。保証否認・責任制限・補償等のすべての法的条件は
+[利用規約 (Terms of Use)](./TERMS) に定められています。本拡張機能をインストール
+または使用することで、利用者は当該規約に同意したものとみなされます。
+
+特に、[利用規約](./TERMS) を限定するものではないが:
+
+- 本拡張機能は「現状有姿 (AS IS)」かつ「提供可能な範囲 (AS AVAILABLE)」で提供され、
+  明示・黙示を問わずいかなる種類の保証も伴いません。
+- 作者は、本拡張機能の使用または使用不能から生じる、いかなる直接的・間接的・付随的・
+  特別・模範的・結果的・懲罰的損害についても一切責任を負いません。これには、データの
+  損失、Discord へのアクセス喪失、Discord Inc. による利用者のアカウントへの制限・終了、
+  Discord Inc. または第三者から提起されるあらゆる請求を含みます。
+- 利用者は、本拡張機能の使用または第三者規約 (Discord の利用規約を含む) の違反に
+  起因する一切の請求から作者を補償し、損害を被らせないことに同意します。
 
 ## Contact
 
