@@ -1,0 +1,16 @@
+{
+  "name": "discord-extention",
+  "version": "1.0.0",
+  "description": "Discord ブラウザ版 (`https://discord.com/channels/*`) で、お気に入りチャネルとカテゴリ横断のフィルタ検索をショートカット一発で開ける Chrome 拡張。",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test-dom-scan.js"
+  },
+  "devDependencies": {
+    "jsdom": "^29.1.1",
+    "sharp": "^0.34.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
