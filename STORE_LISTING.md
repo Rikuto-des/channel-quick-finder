@@ -106,11 +106,13 @@ None. This extension contains no remote code and loads no external scripts.
 
 ## プライバシーポリシーURL
 
-リポジトリの PRIVACY.md を GitHub Pages か raw URL で公開する想定:
+GitHub Pages で PRIVACY.md を HTML レンダリングして公開:
 
 ```
-https://raw.githubusercontent.com/Rikuto-des/channel-quick-finder/main/PRIVACY.md
+https://rikuto-des.github.io/channel-quick-finder/PRIVACY
 ```
+
+(レガシーURL: `https://raw.githubusercontent.com/Rikuto-des/channel-quick-finder/main/PRIVACY.md` — テキストだけ見たい時用)
 
 ## スクリーンショット (1280×800 or 640×400 を1〜5枚)
 
