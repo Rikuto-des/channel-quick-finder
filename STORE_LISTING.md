@@ -49,11 +49,11 @@ Discord のブラウザ版 (https://discord.com/channels/*) で、Alt+Shift+K (M
 
 ソースコード公開: https://github.com/Rikuto-des/channel-quick-finder
 
-■ 免責事項
+■ 免責事項 / Disclaimer
 
-この拡張機能は非公式の第三者製ツールであり、Discord Inc. による開発・承認・後援は一切受けていません。"Discord" は Discord Inc. の商標であり、対応サービスを示すためにのみ言及しています。
+⚠️ 本拡張機能は非公式の第三者製ツールであり、Discord Inc. による開発・承認・後援は一切受けていません。**自己責任** でご利用ください。Discord の UI 仕様変更による動作不能、Discord 側からのアクセス制限、アカウントへの影響等、いかなる事象についても作者は一切の責任を負いません。"Discord" は Discord Inc. の商標であり、対応サービスを示すためにのみ言及しています。
 
-This is an unofficial third-party tool, not affiliated with, endorsed, sponsored, or approved by Discord Inc. "Discord" is a trademark of Discord Inc., referenced only to describe the website this extension works on.
+⚠️ This is an unofficial third-party tool, not affiliated with, endorsed, sponsored, or approved by Discord Inc. **Use at your own risk.** The author provides no warranty and assumes no liability for any consequences arising from use — including broken functionality from Discord UI changes, access restrictions, or impact on user accounts.
 ```
 
 ## カテゴリ

@@ -57,12 +57,22 @@ signed-in devices. It is **not** shared with the extension author or any third
 party. See [Google Chrome's privacy notice](https://www.google.com/chrome/privacy/)
 for details.
 
-## Affiliation
+## Affiliation & Disclaimer / 免責事項
 
 This is an **unofficial third-party tool**. It is not affiliated with,
 endorsed, sponsored by, or approved by Discord Inc. "Discord" is a trademark of
 Discord Inc., used here only descriptively to indicate which website the
 extension works on.
+
+**Use at your own risk.** The author provides this software "as is" without any
+warranty. The author assumes no liability for any direct, indirect, incidental,
+or consequential damages arising from use of this extension — including but not
+limited to broken functionality from Discord UI changes, access restrictions
+imposed by Discord, or any impact on the user's Discord account.
+
+**自己責任** で使用してください。本拡張機能は無保証・現状のまま (as-is) で提供されます。
+Discord の UI 仕様変更による動作不能、Discord 側からのアクセス制限、アカウントへの影響、
+その他いかなる直接・間接・付随的・派生的損害についても、作者は一切の責任を負いません。
 
 ## Contact
 

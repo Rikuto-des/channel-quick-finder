@@ -1,9 +1,18 @@
 # Channel Quick Finder
 
-> **Unofficial** Chrome extension that adds a keyboard-shortcut search overlay to
-> the Discord web app. Not affiliated with, endorsed, sponsored, or approved by
-> Discord Inc. "Discord" is a trademark of Discord Inc., referenced here only to
-> describe the website this extension works on.
+> ⚠️ **非公式・自己責任**
+>
+> 本拡張機能は Discord Inc. による開発・承認・後援を一切受けていない
+> **非公式の第三者製ツール**です。Discord の UI 仕様変更により動作不能になる可能性、
+> Discord 側からのアクセス制限・アカウントへの影響等、いかなる事象についても
+> 利用者は **自己の責任** において使用するものとし、作者は一切の責任を負いません。
+>
+> "Discord" は Discord Inc. の商標です。対応サービスを示すためにのみ言及しています。
+>
+> **Unofficial — use at your own risk.** This is an unofficial third-party tool,
+> not affiliated with, endorsed, sponsored, or approved by Discord Inc. The
+> author provides no warranty and assumes no liability for any consequences
+> arising from use of this extension.
 
 Discord ブラウザ版 (`https://discord.com/channels/*`) で、ショートカット一発で
 **カテゴリ/チャネルを検索 & ドリルダウン**できる Chrome 拡張機能。30チーム規模の業務サーバーで
