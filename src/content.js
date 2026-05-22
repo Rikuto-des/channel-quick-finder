@@ -569,7 +569,10 @@
       log("no guildId — are you in DMs or @me view? overlay will not open");
       return;
     }
-    if (!overlayEl) buildOverlay();
+    // Discord is a React SPA — a re-render can detach our overlay node from
+    // the document while `overlayEl` still holds a (now-orphaned) reference.
+    // Rebuild whenever the node is missing or no longer attached to <body>.
+    if (!overlayEl || !document.body.contains(overlayEl)) buildOverlay();
 
     state.open = true;
     state.guildId = guildId;
@@ -608,12 +611,52 @@
   }
 
   function toggleOverlay() {
-    if (state.open) closeOverlay();
+    // Treat the overlay as "open" only if it is genuinely visible AND still
+    // attached to the document. A detached overlay (React re-render) counts as
+    // closed, so a single keypress correctly rebuilds + opens it.
+    const visible =
+      state.open &&
+      overlayEl &&
+      document.body.contains(overlayEl) &&
+      overlayEl.classList.contains("is-open");
+    if (visible) closeOverlay();
     else openOverlay();
   }
 
+  // The shortcut can arrive via two independent paths (see below). Debounce so
+  // that if both fire for the same keypress we toggle only once.
+  let lastToggleAt = 0;
+  function guardedToggle(source) {
+    const now = Date.now();
+    if (now - lastToggleAt < 300) {
+      log("guardedToggle debounced", { source });
+      return;
+    }
+    lastToggleAt = now;
+    log("guardedToggle", { source });
+    toggleOverlay();
+  }
+
+  // Path 1: background service worker relays the chrome.commands shortcut.
   chrome.runtime.onMessage.addListener((msg) => {
     log("message received", msg);
-    if (msg?.type === "dcqf:toggle") toggleOverlay();
+    if (msg?.type === "dcqf:toggle") guardedToggle("message");
   });
+
+  // Path 2: a direct keydown listener inside the page. This is a fallback for
+  // when the chrome.commands shortcut is unbound (a very common case for
+  // Web Store installs, where suggested_key is not auto-applied) or when the
+  // background message path is otherwise broken.
+  // Uses e.code (physical key, layout/modifier independent) because on macOS
+  // Option+K mutates e.key into a non-Latin character.
+  document.addEventListener(
+    "keydown",
+    (e) => {
+      if (e.altKey && e.shiftKey && !e.ctrlKey && !e.metaKey && e.code === "KeyK") {
+        e.preventDefault();
+        guardedToggle("keydown");
+      }
+    },
+    true
+  );
 })();
